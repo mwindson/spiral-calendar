@@ -1,0 +1,28 @@
+{
+  "name": "spiral-calendar",
+  "version": "0.1.0",
+  "description": "a spiral calendar based on D3",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "set NODE_ENV=production&& webpack",
+    "tslint": "tslint -c tslint.json src/**/*.{ts,tsx}",
+    "lint-fix": "eslint --fix app --ext .js,jsx"
+  },
+  "keywords": ["d3"],
+  "author": "mwindson",
+  "license": "MIT",
+  "dependencies": {
+    "@types/d3": "^5.0.0",
+    "d3": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "awesome-typescript-loader": "^5.0.0-1",
+    "html-webpack-plugin": "^3.0.6",
+    "tslint": "^5.7.0",
+    "typescript": "^2.7.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
